@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "board_print_plain.h"
+#include <stdio.h>
 
 extern char desk[8][8];
 void showdesk()
