@@ -12,7 +12,7 @@ build/board.o: src/board.c
 build/board_print_plain.o: src/board_print_plain.c
 	gcc -Wall -Werror -c src/board_print_plain.c -o build/board_print_plain.o
 
-.PHONY: clean
+.PHONY:clean
 
 clean:
-  	rm -rf *.o
+	rm -rf build/*.o
